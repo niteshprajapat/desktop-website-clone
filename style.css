@@ -2,6 +2,10 @@
 
 
 :root{
+    --dark-black: #1a1b1c;
+    --semi-black: #292c2e;
+    --light-black: #3d3e40;
+    --grey-black: #555657;
     --box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
 }
 
@@ -13,6 +17,7 @@
     border: none;
     outline: none;
     transition: all 0.3s;
+    text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -38,5 +43,17 @@ header{
 }
 
 header .logo{
-    font-size: ;
+    font-size: 2rem;
+    color: var(--semi-black);
+    text-transform: none;
+}
+
+header .logo i{
+    color: var(--dark-black);
+    margin-right: 0.2rem;
+}
+
+header .navbar a{
+    color: var(--light-black);
+
 }
