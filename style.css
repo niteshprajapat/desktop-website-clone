@@ -16,7 +16,7 @@
     text-decoration: none;
     border: none;
     outline: none;
-    transition: all 0.3s;
+    transition: all 0.4s linear;
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
 }
@@ -34,7 +34,7 @@ header{
     left: 0;
     right: 0;
     background: #fff;
-    padding: 1rem 7%;
+    padding: 1.5rem 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,16 +44,77 @@ header{
 
 header .logo{
     font-size: 2rem;
+    font-weight: 500;
     color: var(--semi-black);
     text-transform: none;
 }
 
 header .logo i{
     color: var(--dark-black);
-    margin-right: 0.2rem;
+    margin-right: 0.5rem;
 }
 
 header .navbar a{
     color: var(--light-black);
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    background: none;
+    font-weight: 500;
+}
 
+header .navbar a:hover{
+    background: var(--dark-black);
+    color: rgb(167, 164, 164);
+}
+
+header .icons i{ 
+    cursor: pointer;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 1.3rem;
+    color: var(--dark-black);
+    border-radius: 50%;
+    /* background: var(--grey-black); */
+    text-align: center;
+    margin-left: 1rem;
+}
+
+header .icons .search-symbol{
+    margin-left: 0.5rem;
+}
+
+header .icons i:hover{
+    transform: rotate(360deg);
+    color: rgb(211, 207, 207);
+    background: var(--dark-black);
+}
+
+header .icons a{
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--light-black);
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+header .icons .login:hover{
+    cursor: pointer;
+    color: rgb(141, 138, 138);
+}
+
+header .icons .get-started{
+    border: 0.1rem solid rgb(197, 193, 193);
+    background: none;
+}
+
+header .icons .get-started:hover{
+    background: rgba(236, 234, 234, 0.767);
+}
+
+
+header .icons #menu-bars{
+    display: none;
 }
