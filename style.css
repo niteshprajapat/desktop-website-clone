@@ -28,6 +28,9 @@ html{
     scroll-padding-top: 5.5rem;
 }
 
+
+/* Header section */
+
 header{
     position: fixed;
     top: 0;
@@ -117,4 +120,39 @@ header .icons .get-started:hover{
 
 header .icons #menu-bars{
     display: none;
+}
+
+
+/* Search form */
+#search-form{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 1002;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-form #search-box{
+    width: 45rem;
+    padding: 1rem 0;
+    border-bottom: 0.1rem solid #fff;
+    background: none;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+}
+
+#search-form #search-box::placeholder{
+    color: rgb(207, 205, 205);
+}
+
+#search-form #search-box::-webkit-search-cancel-button{
+    -webkit-appearance: none;
 }
