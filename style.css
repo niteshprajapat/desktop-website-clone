@@ -62,7 +62,7 @@ header .navbar a{
     background: none;
     font-weight: 500;
 }
-
+header .navbar a.active,
 header .navbar a:hover{
     background: var(--dark-black);
     color: rgb(167, 164, 164);
@@ -106,7 +106,7 @@ header .icons .login:hover{
 }
 
 header .icons .get-started{
-    border: 0.1rem solid rgb(197, 193, 193);
+    border: 0.199rem solid rgb(197, 193, 193);
     background: none;
 }
 
