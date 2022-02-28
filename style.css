@@ -328,13 +328,19 @@ header .icons #menu-bars{
     color: #000;
 }
 
+#login-section .platform-container .login-form .github:hover{
+    background: #000;
+    border: 0.1rem solid #000;
+    color: #fff;
+}
+
 #login-section .platform-container .login-form .email i{
      margin-left: 0.5rem; 
 }
 
 #login-section .platform-container .login-form .email{
     background: #fff;
-    color: #369fff;
+    color: #4da2f1;
 }
 
 #login-section .platform-container .login-form .email:hover{
