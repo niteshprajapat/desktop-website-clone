@@ -191,7 +191,7 @@ header .icons #menu-bars{
 
 #login-section{
     position: fixed;
-    top: 0;
+    top: -110%;
     left: 0;
     right: 0;
     height: 100%;
@@ -203,6 +203,10 @@ header .icons #menu-bars{
     flex-direction: column;
     justify-content: center; 
     align-items: center;
+}
+
+#login-section.active{
+    top: 0;
 }
 
 #login-section .title{
