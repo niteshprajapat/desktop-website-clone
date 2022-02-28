@@ -232,6 +232,7 @@ header .icons #menu-bars{
     border-radius: 0.5rem;
     padding: 3rem;
     background: #fff;
+    box-shadow: var(--box-shadow);
 }
 
 #login-section .form-container{
@@ -352,4 +353,28 @@ header .icons #menu-bars{
     margin-right: 1rem;
     font-size: 1.6rem;
     font-weight: 700;
+}
+
+
+
+#login-section .sign-up{
+    display: inline-block;
+    margin-top: 3rem;
+}
+
+#login-section .sign-up .signup-logo{
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+}
+
+#login-section .sign-up span{
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    color: #0080ff;   
+    font-weight: bold;
+}
+
+#login-section .sign-up span:hover{
+    color: #72b8fd;
 }
