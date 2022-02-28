@@ -205,6 +205,13 @@ header .icons #menu-bars{
     align-items: center;
 }
 
+#login-section .platform-container{
+    border: 0.1rem solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    padding: 3rem;
+    background: #fff;
+}
+
 #login-section .form-container{
     text-align: center;
     font-size: 1.5rem;
@@ -217,12 +224,6 @@ header .icons #menu-bars{
     cursor: pointer;
 }
 
-#login-section .platform-container{
-    border: 0.1rem solid rgba(0,0,0,0.1);
-    border-radius: 0.5rem;
-    padding: 3rem;
-    background: #fff;
-}
 
 #login-section #close2{
     position: absolute;
