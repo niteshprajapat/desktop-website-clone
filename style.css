@@ -186,3 +186,72 @@ header .icons #menu-bars{
     color: var(--dark-black);
     font-weight: bolder;
 }
+
+/* Login section */
+
+#login-section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 1003;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+#login-section .form-container{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#login-section .form-container span{
+    color: blue;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#login-section .platform-container{
+    border: 0.1rem solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    padding: 3rem;
+    background: #fff;
+}
+
+#login-section #close2{
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+}
+
+/* #login-section .form-container{
+    margin-bottom: 10rem;
+} */
+
+#login-section .login-form{
+    margin-top: 5rem;
+}
+
+#login-section .login-form .platforms{
+    text-align: center;
+    width: 25rem;
+    height: 4rem;
+    background: gray;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+#login-section .login-form .platforms i{
+    margin-right: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+
+}
