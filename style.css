@@ -196,7 +196,7 @@ header .icons #menu-bars{
     right: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.8);
     z-index: 1003;
     padding: 0 1rem;
     display: flex;
@@ -207,21 +207,21 @@ header .icons #menu-bars{
 
 #login-section .title{
     position: absolute;
-    top: 10rem;
+    top: 5rem;
     left: 45%;
 }
 
 #login-section .title .title-logo span{
     font-size: 1.8rem;
     text-transform: none;
-    color: var(--dark-black);
-    font-weight: bold;
-    margin-left: 0.3rem;
+    color: #fff;
+    margin-left: 0.5rem;
+    letter-spacing: 0.1rem;
 }
 
 #login-section .title .title-logo i{
-    font-size: 1.4rem;
-    color: rgb(206, 203, 203);
+    font-size: 1.7rem;
+    color: rgb(253, 252, 252)
 }
 
 
@@ -255,6 +255,10 @@ header .icons #menu-bars{
     font-size: 2rem;
     font-weight: bolder;
     border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    text-align: center;
 }
 
 #login-section #close2:hover{
@@ -280,11 +284,18 @@ header .icons #menu-bars{
 
 #login-section .login-form .platforms span{
     font-size: 1.3rem;
+    font-weight: 500;
 }
 
 #login-section .platform-container .login-form .google{
     background: #fff;
     border: 0.1rem solid var(--grey-black);
+}
+
+#login-section .platform-container .login-form .google:hover{
+    background: rgba(0,0,0,0.2);
+    border: 0.1rem solid rgba(0,0,0,0.2);
+    transition: all 0.3s linear;
 }
 
 #login-section .platform-container .login-form .facebook{
@@ -293,10 +304,42 @@ header .icons #menu-bars{
     color: #fff;
 }
 
+#login-section .platform-container .login-form .facebook:hover{
+    background: #4d8ee4;
+    border: 0.1rem solid #4d8ee4;
+    transition: all 0.2s linear;
+}
+
 #login-section .platform-container .login-form .apple{
     background: #000;
     border: 0.1rem solid #000;
     color: #fff;
+}
+
+#login-section .platform-container .login-form .apple:hover{
+    background: rgb(43, 42, 42);
+    border: 0.1rem solid rgb(43, 42, 42);
+    transition: all 0.2s linear;
+}
+
+#login-section .platform-container .login-form .github{
+    background: #fff;
+    border: 0.1rem solid #000;
+    color: #000;
+}
+
+#login-section .platform-container .login-form .email i{
+     margin-left: 0.5rem; 
+}
+
+#login-section .platform-container .login-form .email{
+    background: #fff;
+    color: #369fff;
+}
+
+#login-section .platform-container .login-form .email:hover{
+    background: #fff;
+    color: #0080ff;
 }
 
 #login-section .login-form .platforms i{
