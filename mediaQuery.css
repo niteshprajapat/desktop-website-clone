@@ -36,6 +36,10 @@
         margin: 1rem;
         background: rgb(141, 138, 138);
     }
+
+    #search-form #search-box{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:991px){
