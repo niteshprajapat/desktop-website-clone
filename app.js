@@ -46,7 +46,7 @@ closeBtn2.onclick = () =>{
 
 
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".home-slider", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
