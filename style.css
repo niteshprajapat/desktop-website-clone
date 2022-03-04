@@ -424,7 +424,20 @@ header .icons #menu-bars{
 
 .home .home-slider .wrapper .slide .image img{
     width: 100%;
+    filter: drop-shadow(0 0.1rem 0.3rem  black);
     /* box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3); */
+    animation: drop 1.5s ease;
+}
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-8rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
 }
 
 .home .home-slider .wrapper .slide .content span{
