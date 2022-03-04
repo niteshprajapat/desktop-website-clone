@@ -6,6 +6,10 @@
     header{
         padding: 1rem 2rem;
     }
+
+    section{
+        padding: 2rem;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -39,6 +43,14 @@
 
     #search-form #search-box{
         width: 90%;
+    }
+
+    .home .home-slider .wrapper .slide .content h3{
+        font-size: 3rem;
+    }
+
+    .home .home-slider .wrapper .slide .image img{
+        margin-top: 1rem;
     }
 }
 
