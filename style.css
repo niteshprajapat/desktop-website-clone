@@ -29,9 +29,24 @@ html{
 }
 
 section{
-    padding: 2rem 9%;
+    padding: 5rem 9%;
 }
 
+.btn{
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.7rem;
+    background: var(--dark-black);
+    color: white;
+}
+
+.btn:hover{
+    letter-spacing: 0.1rem;
+    background: #000;
+    color: rgb(209, 207, 207);
+}
 
 /* Header section */
 
@@ -405,4 +420,25 @@ header .icons #menu-bars{
 
 .home .home-slider .wrapper .slide .image img{
     width: 100%;
+    /* box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3); */
+}
+
+.home .home-slider .wrapper .slide .content span{
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    color: var(--dark-black);
+    font-weight: 500;
+}
+
+.home .home-slider .wrapper .slide .content h3{
+    font-size: 5rem;
+    color: rgb(26, 26, 26); 
+}
+
+.home .home-slider .wrapper .slide .content p{
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+    padding: 0.5rem 0;
+    color: var(--light-black);
 }
