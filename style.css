@@ -29,7 +29,11 @@ html{
 }
 
 section{
-    padding: 5rem 9%;
+    padding: 2rem 9%;
+}
+
+#home{
+    padding-top: 10rem;
 }
 
 .btn{
@@ -441,4 +445,8 @@ header .icons #menu-bars{
     line-height: 1.5;
     padding: 0.5rem 0;
     color: var(--light-black);
+}
+
+.swiper-pagination-bullet.active{
+    background: var(--dark-black);
 }
