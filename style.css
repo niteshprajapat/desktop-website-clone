@@ -28,6 +28,10 @@ html{
     scroll-padding-top: 5.5rem;
 }
 
+section{
+    padding: 2rem 9%;
+}
+
 
 /* Header section */
 
@@ -378,4 +382,27 @@ header .icons #menu-bars{
 
 #login-section .sign-up span:hover{
     color: #72b8fd;
+}
+
+/* Home Section */
+
+.home .home-slider .wrapper .slide{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 9rem;
+}
+
+.home .home-slider .wrapper .slide .content{
+    flex: 1 1 45rem;
+}
+
+.home .home-slider .wrapper .slide .image{
+    flex: 1 1 45rem;
+}
+
+.home .home-slider .wrapper .slide .image img{
+    width: 100%;
 }
