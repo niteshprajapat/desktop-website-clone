@@ -463,3 +463,32 @@ header .icons #menu-bars{
 .swiper-pagination-bullet.active{
     background: var(--dark-black);
 }
+
+/* Features section */
+
+#features{
+    margin-top: 10rem;
+}
+
+.features .features-main{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0rem;
+    padding-top: 9rem;
+}
+
+.features .features-main .features-text{
+    flex: 1 1 25rem;
+}
+
+.features .features-main .features-image{
+    flex: 1 1 25rem;
+}
+
+.features .features-main .features-image img{
+    width: 100%;
+    height: 50vh;
+    margin-left: 15rem;
+    filter:drop-shadow(0 0.1rem 0.3rem rgba(0,0,0,0.3))
+}
