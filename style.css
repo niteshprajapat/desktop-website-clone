@@ -36,7 +36,10 @@ section{
     padding-top: 10rem;
 }
 
+
+
 .btn{
+    margin-top: 2rem;
     display: inline-block;
     padding: 0.5rem 1.5rem;
     margin-top: 1rem;
@@ -44,12 +47,18 @@ section{
     font-size: 1.7rem;
     background: var(--dark-black);
     color: white;
+    line-height: 2;
 }
 
 .btn:hover{
     letter-spacing: 0.1rem;
     background: #000;
     color: rgb(209, 207, 207);
+}
+
+.btn2{
+    margin-top: 2rem;
+    line-height: 2;
 }
 
 /* Header section */
@@ -467,7 +476,7 @@ header .icons #menu-bars{
 /* Features section */
 
 #features{
-    margin-top: 10rem;
+    margin-top: 4rem;
 }
 
 .features .features-main{
@@ -479,7 +488,9 @@ header .icons #menu-bars{
 }
 
 .features .features-main .features-text{
-    flex: 1 1 25rem;
+    flex: 1 1 30rem;
+    margin-left: 5rem;
+    padding: 1rem 0;
 }
 
 .features .features-main .features-image{
@@ -488,7 +499,48 @@ header .icons #menu-bars{
 
 .features .features-main .features-image img{
     width: 100%;
-    height: 50vh;
+    height: 55vh;
     margin-left: 15rem;
     filter:drop-shadow(0 0.1rem 0.3rem rgba(0,0,0,0.3))
+}
+
+
+.features .features-main .features-text h3{
+    font-size: 5.5rem;
+    color: var(--semi-black);
+    font-weight: 550;
+    line-height: 1.2;
+}
+
+.features .features-main .features-text p{
+    padding-top: 2.4rem;
+    font-size: 2rem;
+    color: rgba(2,17,33,.6);
+    line-height: 3rem;
+}
+
+
+/* Video Feature */
+.video-feature{
+    background: #ecf6ff;
+}
+
+.video-feature .video-main{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-feature .video-main .video-text{
+    font-size: 4rem;
+    font-weight: 500;
+    color: #4e5153;
+    padding: 5rem 2rem;
+}
+
+.video-feature .video-main .video-video video{
+    width: 100%;
+    padding: 0 4rem;
 }
