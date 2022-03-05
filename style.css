@@ -666,6 +666,7 @@ header .icons #menu-bars{
     font-size: 5rem;
     font-weight: 600;
     text-transform: none;
+    color: var(--dark-black);
 }
 
 .organize .organize-container{
@@ -739,3 +740,74 @@ header .icons #menu-bars{
 .plan .plan-all .plan-all-btn{
     padding: 1rem;
 }
+
+
+/* Communicate section */
+.communicate{
+    margin-top: 10rem;
+    background: #ecf6ff;
+}
+
+.communicate .communicate-main{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.communicate .communicate-main .communicate-svg{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.communicate .communicate-main .communicate-svg img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.communicate .communicate-main .communicate-svg img:hover{
+    filter: drop-shadow(0 0.1rem 0.3rem rgba(0,0,0,0.3));
+}
+
+.communicate .communicate-main .communicate-svg h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-left: 1.5rem;
+    color: #9c6ade;
+}
+
+.communicate .communicate-main .communicate-text p{
+    padding-top: 3rem;
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: none;
+    color: var(--dark-black);
+}
+
+
+.communicate .communicate-container{
+    padding-top: 10rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.communicate .communicate-container .communcate-img-container img{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 0.1rem 0.3rem rgba(0,0,0,0.3));
+}
+
+.communicate .communicate-container .communcate-img-container{
+    width: 50%;
+}
+
+.communicate .communicate-container .communcate-text-container{
+    width: 50%;
+}
+
