@@ -544,3 +544,37 @@ header .icons #menu-bars{
     width: 100%;
     padding: 0 4rem;
 }
+
+.video-feature .svg-icons{
+    margin-top: 5rem;
+    padding: 3rem 0;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.video-feature .svg-icons .svg-platform{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.video-feature .svg-icons .svgs .svg-i{
+    cursor: pointer;
+}
+
+.video-feature .svg-icons .svgs .svg-i:hover{
+    filter: drop-shadow(0 0.1rem 0.3rem rgba(0,0,0,0.3));
+}
+
+.video-feature .svg-icons .svgs h3{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--dark-black);
+    line-height: 3;
+}
+
+.video-feature .svg-icons .svg-para p{
+    font-size: 1.4rem;
+    color: #82888d;
+    text-transform: lowercase;
+}
