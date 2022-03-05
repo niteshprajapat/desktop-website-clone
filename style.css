@@ -523,6 +523,7 @@ header .icons #menu-bars{
 /* Video Feature */
 .video-feature{
     background: #ecf6ff;
+    padding-bottom: 10rem;
 }
 
 .video-feature .video-main{
@@ -556,6 +557,7 @@ header .icons #menu-bars{
 .video-feature .svg-icons .svg-platform{
     padding-right: 2rem;
     padding-left: 2rem;
+    text-align: left;
 }
 
 .video-feature .svg-icons .svgs .svg-i{
