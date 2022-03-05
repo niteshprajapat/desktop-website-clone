@@ -80,6 +80,26 @@ section{
     color: white;
 }
 
+
+.plan-btn{
+    margin-top: 2.5rem;
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    color: var(--dark-black);
+    text-transform: none;
+    cursor: pointer;
+}
+
+.plan-btn:hover{
+    color: #fff;
+    background: #9db2c4;
+    letter-spacing: 0.1rem;
+}
+
 /* Header section */
 
 header{
@@ -680,7 +700,7 @@ header .icons #menu-bars{
 
 
 .organize .organize-container .organize-img-container{
-    width: 70%;
+    width: 80%;
 }
 
 
@@ -691,4 +711,31 @@ header .icons #menu-bars{
     padding-left: 10rem;
     padding-right: 5rem;
     filter: drop-shadow(0 0.1rem 0.3rem rgba(0,0,0,0.3));
+}
+
+
+/* Plan section */
+.plan .plan-all{
+    width: auto;
+    margin-top: 7rem;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5.5rem 16rem;
+    border-radius: 1rem;
+    text-align: center;
+    background: linear-gradient(145deg,#292d2e,#222c36 73%,#0a1118);
+}
+
+.plan .plan-all .plan-all-text h3{
+    font-size: 3rem;
+    font-weight: 600;
+    word-spacing: 0.4rem;
+    color: white;
+}
+
+.plan .plan-all .plan-all-btn{
+    padding: 1rem;
 }
