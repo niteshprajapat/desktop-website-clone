@@ -469,8 +469,9 @@ header .icons #menu-bars{
     color: var(--light-black);
 }
 
-.swiper-pagination-bullet.active{
-    background: var(--dark-black);
+
+.swiper-pagination-bullet-active{
+    background-color: var(--dark-black);
 }
 
 /* Features section */
@@ -580,3 +581,51 @@ header .icons #menu-bars{
     color: #82888d;
     text-transform: lowercase;
 }
+
+
+/* Organize Section */
+.organize{
+    margin-top: 3rem;
+    padding-bottom: 10rem;
+}
+
+.organize .organize-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.organize .organize-header .organize-icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.organize .organize-header .organize-icon h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-left: 1.5rem;
+    color: #0889fa;
+}
+
+
+.organize .organize-header .organize-icon img{
+    cursor: pointer;
+}
+
+.organize .organize-header .organize-icon img:hover{
+    filter: drop-shadow(0 0.1rem 0.3rem rgba(0,0,0,0.3));
+}
+
+
+.organize .organize-header .organize-content{
+    padding-top: 3rem;
+}
+
+.organize .organize-header .organize-content p{
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: none;
+}
+
