@@ -98,6 +98,24 @@ section{
     color: white;
 }
 
+.btn5{
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 0.7rem 1.3rem;
+    background: transparent;
+    border-radius: 0.3rem;
+    border: 0.2rem solid #47c1bf;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #47c1bf;
+    cursor: pointer;
+}
+
+.btn5:hover{
+    background: #47c1bf;
+    color: white;
+}
+
 .plan-btn{
     margin-top: 2.5rem;
     display: inline-block;
@@ -668,6 +686,7 @@ header .icons #menu-bars{
 
 .organize .organize-header .organize-icon img{
     cursor: pointer;
+    width: 5rem;
 }
 
 .organize .organize-header .organize-icon img:hover{
@@ -764,6 +783,7 @@ header .icons #menu-bars{
     margin-top: 10rem;
     margin-bottom: 10rem;
     background: #ecf6ff;
+    padding-bottom: 10rem;
 }
 
 .communicate .communicate-main{
@@ -781,7 +801,7 @@ header .icons #menu-bars{
 }
 
 .communicate .communicate-main .communicate-svg img{
-    width: 100%;
+    width: 5rem;
     cursor: pointer;
 }
 
@@ -845,3 +865,85 @@ header .icons #menu-bars{
     padding-top: 3rem;
 }
 
+/* Access section */
+.access{
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.access .access-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.access .access-container .access-svg{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.access .access-container .access-svg img{
+    cursor: pointer;
+    width: 5rem;
+}
+
+.access .access-container .access-svg img:hover{
+    filter: drop-shadow(0 0.1rem 0.3rem rgba(0,0,0,0.3));
+}
+
+.access .access-container .access-svg h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-left: 1.5rem;
+    color: #47c1bf;
+}
+
+.access .access-container .access-text p{
+    padding-top: 3rem;
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: none;
+    color: var(--dark-black);
+}
+
+.access .access-text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 10rem;
+    margin-top: 5rem;
+}
+
+.access .access-text-container .access-text-block{
+    width: 50%;
+}
+
+.access .access-text-container .access-img-block{
+    width: 50%;
+}
+
+.access .access-text-container .access-text-block h4{
+    text-transform: none;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--dark-black);
+    padding-top: 1rem;
+}
+
+.access .access-text-container .access-text-block p{
+    text-transform: none;
+    font-size: 1.7rem;
+    color: #82888d;
+    line-height: 1.5;
+    padding-top: 3rem;
+}
+
+
+.access .access-text-container .access-img-block img{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 0.1rem 0.3rem rgba(0,0,0,0.3));
+}
