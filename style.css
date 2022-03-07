@@ -1017,8 +1017,9 @@ header .icons #menu-bars{
     border-radius: 0.5rem;
 }
 
+
 .review .review-container .users .user-container:hover{
-    background: #9ba4a5;
+    background: #7a8283;
     cursor: pointer;
     margin-top: -2rem;
 }
@@ -1026,6 +1027,7 @@ header .icons #menu-bars{
 
 .review .review-container .users .user-container img{
     width: 70%;
+    display: block;
     position: relative;
     border-radius: 50%;
     object-fit: cover;
