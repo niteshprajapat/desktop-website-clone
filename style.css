@@ -982,3 +982,49 @@ header .icons #menu-bars{
     font-weight: 500;
     color: rgb(155, 152, 152);
 }
+
+
+/* Review section */
+.review{
+    margin-top: 10rem;
+}
+
+/* .review .review-container h3{
+    text-align: center;
+    font-size: 3.3rem;
+} */
+
+
+.review .slide{
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border: 0.1rem solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.review .slide .user{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.review .slide .user img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .slide .user h3{
+    color: var(--dark-black);
+    font-size: 1.7rem;
+    padding-bottom: 0.5rem;
+}
+
+.review .slide p{
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: rgba(2,17,33,.6);
+}
