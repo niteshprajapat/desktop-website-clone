@@ -1191,7 +1191,82 @@ header .icons #menu-bars{
 }
 
 
+
+
+.footer .footer-container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+
+
+.footer .footer-container2 .footer-imp-text a{
+    font-size: 1.2rem;
+    padding-right: 1.5rem;
+    color: white;
+}
+
+.footer .footer-container2 .footer-imp-text #trademark{
+    color: #7d848a;
+    font-weight: 500;
+}
+
+
+.footer .footer-container2 .footer-imp-text #trademark:hover{
+    color: #7d848a;
+    color: #fff;
+}
+
+
+.footer .footer-container2 .footer-imp-platforms i{
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    color: #919eab;
+}
+
+.footer .footer-container2 .footer-imp-platforms i:hover{
+    color: white;
+    transition: none;
+}
+
+
+
+
+
 .footer .credit{
     text-align: center;
-    margin: 5rem 0;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.footer .credit p{
+    color: #919eab;
+    font-size: 1.4rem;
+}
+
+.footer .credit p i{
+    color: #a0bdda;
+    margin: 0 0.5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.footer .credit p i:hover{
+    color: #ffffff;
+}
+
+
+.footer .credit p span a{
+    color: #7fb6ec;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.footer .credit p span a:hover{
+    color: #ffffff;
+    transition: all 0.2s;
 }
