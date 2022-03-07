@@ -987,44 +987,63 @@ header .icons #menu-bars{
 /* Review section */
 .review{
     margin-top: 10rem;
+    background: #ecf6ff;
+    padding: 8rem 9%;
 }
 
-/* .review .review-container h3{
+.review .review-container .user-header{
     text-align: center;
-    font-size: 3.3rem;
-} */
-
-
-.review .slide{
-    padding: 2rem;
-    box-shadow: var(--box-shadow);
-    border: 0.1rem solid rgba(0,0,0,0.1);
-    border-radius: 0.5rem;
-    position: relative;
+    font-size: 4rem;
+    color: #212d3a;
 }
 
-.review .slide .user{
+.review .review-container .users{
     display: flex;
-    gap: 1.5rem;
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 1.5rem;
+    padding-top: 5rem;
 }
 
-.review .slide .user img{
-    width: 7rem;
-    height: 7rem;
+.review .review-container .users .user-container{
+    position: relative;
+    /* display: flex; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.review .review-container .users .user-container:hover{
+    background: #9ba4a5;
+    cursor: pointer;
+    margin-top: -2rem;
+}
+
+
+.review .review-container .users .user-container img{
+    width: 70%;
+    position: relative;
     border-radius: 50%;
     object-fit: cover;
+    cursor: pointer;
 }
 
-.review .slide .user h3{
-    color: var(--dark-black);
+.review .review-container .users .user-container img:hover{
+    filter:drop-shadow(0 0.6rem 0.7rem rgba(0,0,0,0.3));
+}
+
+.review .review-container .users .user-container h3{
+    color: #0a1118;
+    padding: 2rem 0;
     font-size: 1.7rem;
-    padding-bottom: 0.5rem;
 }
 
-.review .slide p{
-    font-size: 1.5rem;
-    line-height: 1.4;
-    color: rgba(2,17,33,.6);
+.review .review-container .users .user-container p{
+    font-size: 1.4rem;
+    text-align: center;
+    color: #586879;
 }
