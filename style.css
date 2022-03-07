@@ -32,6 +32,11 @@ section{
     padding: 2rem 9%;
 }
 
+
+footer{
+    padding: 2rem 9%;
+}
+
 #home{
     padding-top: 10rem;
 }
@@ -1130,4 +1135,63 @@ header .icons #menu-bars{
 
 .subscribe .subscribe-email .checkpoint span:hover{
     color: #000;
+}
+
+
+
+/* Footer */
+.footer{
+    background: #212b36;
+    padding-bottom: 5rem ;
+}
+
+.footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    border-bottom: 0.2rem solid rgba(255, 255, 255, 0.12);
+}
+
+
+.footer .footer-container #footer-logo{
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
+    text-transform: none;
+    color: #fff;
+}
+
+
+
+.footer .footer-container .footer-box{
+    line-height: 2.5;
+}
+
+
+.footer .footer-container .footer-box h3{
+    padding-bottom: 1.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footer .footer-container .footer-box a{
+    display: block;
+    font-size: 1.4rem;
+    color: #75889b;
+}
+
+.footer .footer-container .footer-box a:hover{
+    color: #fff;
+    transition: none;
+}
+
+
+.footer .credit{
+    text-align: center;
+    margin: 5rem 0;
 }
