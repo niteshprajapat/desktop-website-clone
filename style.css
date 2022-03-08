@@ -1260,7 +1260,7 @@ header .icons #menu-bars{
 
 
 .footer .credit p span a{
-    color: #7fb6ec;
+    color: #4f85bb;
     font-weight: 600;
     margin-left: 0.5rem;
     letter-spacing: 0.1rem;
@@ -1269,4 +1269,30 @@ header .icons #menu-bars{
 .footer .credit p span a:hover{
     color: #ffffff;
     transition: all 0.2s;
+}
+
+/* Scroll UP */
+.scroll-up{
+    position: fixed;
+    right: 3rem;
+    bottom: -30%;
+    background: #02080e;
+    box-shadow: var(--box-shadow);
+    display: inline-flex;
+    padding: 0.8rem;
+    border-radius: 0.15rem;
+    font-size: 1.4rem;
+    opacity: 0.9;
+    transition: all 0.3s linear;
+    z-index: 1010;
+    color: #fff;
+}
+
+.scroll-up:hover{
+    transform: translateY(-0.25rem);
+    opacity: 1;
+}
+
+.show-scroll{
+    bottom: 3rem;
 }
